@@ -1,13 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Oskars Sida</title>
+    <link rel="stylesheet" type="text/css" href="icons-1.4.0/font/bootstrap-icons.css">
+    <title>Oskars Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Fjellen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="split head-section" id="about">
+            <div class="split-section split-section-size2">
+                <img src="29542569_10157304068047995_5753302472604848430_n.jpg"/>
+                <h3>
+                    About
+                    <small class="text-muted">Oskar Fjellen</small>
+                </h3>
+                <p>
+                    Mitt namn är Oskar Fjellen, jag är 34 år och bor i Kosta med min sambo Elvira och barn.
+                    Elvira hade tre barn sen innan och vi har ett gemensamt.
+                    De tre senaste åren har jag jobbat inom lager-logistik, det senaste året 2020) jobbade jag på tre olika 
+                    företag via bemanning. Så jag kännde att jag behövde utbilda mig till något vettigt, jag har alltid varit intresserad av datorer, 
+                    främst av att spela.
+                </p>
+                <p>
+                    På min fritid så umgås jag mycket med familjen, men när barnen sover så sätter jag mig gärna och lägger lite diamond painting.
+                    Det är en väldigt avslappnande hobby. Övriga intressen är mitt akvarium och fiske.
+                </p>
+            </div>
+            <div class="split-section align-right">
+                <img src="29542569_10157304068047995_5753302472604848430_n.jpg"/>
+            </div>
+        </section>
+        <section id="projects">
+            <h3>
+                Projects
+                <small class="text-muted">Några övningar jag har gjort i skolan!</small>
+            </h3>
+            <ul class="list-group">
+                <li class="list-group-item" aria-current="true"><a href="https://github.com/fjellen/html-css-signup-form">Signup Form</a></li>
+                <li class="list-group-item"><a href="https://github.com/fjellen/-vning-flex-grid-variables-animations">Flex & Grid Animations</a></li>
+                <li class="list-group-item"><a href="https://github.com/fjellen/2021.03.29.-vning">Responsive Profilsida</a></li>
+                <li class="list-group-item"><a href="https://github.com/fjellen/2021.03.29">Fake Videoplayer</a></li>
+              </ul>
+        </section>
+        <section>
+            <div class="banner-small"></div>
+        </section>
+        <section id="contact">
+            <h3>
+                Contact
+                <small class="text-muted">Kontakta mig!</small>
+            </h3>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </section>
+    </div>
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="footer-section">
+                <ul class="link-list">
+                    <li><a target="_blank" href="https://www.facebook.com/fjellen/"><i class="bi bi-facebook"></i><span>Facebook</span></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/fjellen87/"><i class="bi bi-instagram"></i><span>Instagram</span></a></li>
+                    <li><a target="_blank" href="https://github.com/fjellen"><i class="bi bi-github"></i><span>Github</span></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <i>Made by Fjellen</i>
+            </div>
+            <div class="footer-section align-right">
+                <i class="bi bi-code-slash"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
